@@ -1,0 +1,235 @@
+
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>CodePen - FM Dancing Radio</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <style>
+      body {
+  padding: 0;
+  margin: 0;
+  height: 670px;
+  background: linear-gradient(#ff7f50, #ffdab9) no-repeat center center;
+  overflow: hidden;
+}
+
+.wrapper {
+  animation: dance-and-bounce infinite 3s;
+  display: block;
+  position: relative;
+}
+
+.container {
+  width: 360px;
+  height: 460px;
+  position: relative;
+  margin: 10vh auto;
+}
+.container .radio {
+  position: absolute;
+  top: 200px;
+  left: -20px;
+  overflow: hidden;
+  z-index: 100;
+}
+.container .radio .rect1 {
+  position: relative;
+  display: block;
+  top: -140px;
+  left: 230px;
+}
+.container .radio .rect2 {
+  position: relative;
+  top: -330px;
+  left: 240px;
+}
+.container .radio .rect3 {
+  position: relative;
+  top: -415px;
+  left: 255px;
+}
+.container .radio .circ1 {
+  position: relative;
+  top: -600px;
+  left: 10px;
+}
+.container .radio .circ2 {
+  position: relative;
+  top: -905px;
+  left: 10px;
+}
+.container .radio .circ3 {
+  position: relative;
+  top: -1210px;
+  left: 10px;
+}
+.container .radio .circles {
+  position: relative;
+  top: 105px;
+}
+.container .radio .circ4 {
+  position: relative;
+  top: -1400px;
+  left: 250px;
+}
+.container .radio .circ5 {
+  position: relative;
+  top: -1455px;
+  left: 350px;
+}
+.container .radio .squares {
+  position: absolute;
+  height: 20px;
+  width: 160px;
+  background: #56411b;
+  top: -1335px;
+  left: 250px;
+}
+.container .rect6 {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+.container .rect6 .rect7 {
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -123px;
+  top: 8px;
+}
+.container .rect6 .rect8 {
+  position: absolute;
+  transform: rotate(-90deg);
+  left: 189px;
+  top: 75px;
+}
+
+@keyframes dance-and-bounce {
+  0% {
+    -moz-transform: rotate(0deg) translateY(0px);
+    transform: rotate(0deg) translateY(0px);
+  }
+  16.6% {
+    -moz-transform: rotate(0deg) translateY(-20px);
+    -webkit-transform: rotate(0deg) translateY(-20px);
+    transform: rotate(0deg) translateY(-20px);
+  }
+  33.2% {
+    -moz-transform: rotate(0deg) translateY(0px);
+    -webkit-transform: rotate(0deg) translateY(0px);
+    transform: rotate(0deg) translateY(0px);
+  }
+  49.8% {
+    -moz-transform: rotate(-10deg) translateY(0px);
+    -webkit-transform: rotate(-10deg) translateY(0px);
+    transform: rotate(-10deg) translateY(0px);
+  }
+  66.4% {
+    -moz-transform: rotate(0deg) translateY(0px);
+    -webkit-transform: rotate(0deg) translateY(0px);
+    transform: rotate(0deg) translateY(0px);
+  }
+  83% {
+    -moz-transform: rotate(10deg) translateY(0px);
+    -webkit-transform: rotate(10deg) translateY(0px);
+    transform: rotate(10deg) translateY(0px);
+  }
+  100% {
+    -moz-transform: rotate(0deg) translateY(0px);
+    -webkit-transform: rotate(0deg) translateY(0px);
+    transform: rotate(0deg) translateY(0px);
+  }
+}
+
+    </style>
+
+    
+    
+    
+    
+  </head>
+
+  <body translate="no" >
+
+    <div class="container">
+  <div class="wrapper">
+  <div class="radio">
+  <svg class="rect" width="450" height="250">
+  <rect width="450" height="250" style="fill:rgba(146,10,10,.4);stroke-width:0;stroke:#450606" />
+</svg>
+    <div class="rect1">
+      <svg class="rect_1" width="300" height="200">
+  <rect width="200" height="100" style="fill:#333333;stroke-width:0;stroke:rgb(0,0,0)" />
+</svg>
+    </div>
+    <div class="rect2">
+      <svg width="200" height="80">
+  <rect width="180" height="90" style="fill:##5a4f4a;stroke-width:0;stroke:rgb(0,0,0)"/>
+</svg>
+      </div>
+    <div class="rect3">
+      <svg width="200" height="80">
+  <rect width="150" height="50" style="fill:#0e2f44;stroke-width:0;stroke:rgb(0,0,0)"/>
+</svg>
+    </div>
+    <div class="circ1">
+      <svg height="300" width="200">
+  <circle cx="100" cy="100" r="90" stroke="black" stroke-width="0" fill="#dddbd4" />
+</svg>
+    </div>
+    <div class="circ2">
+      <svg height="300" width="200">
+  <circle cx="100" cy="100" r="80" stroke="black" stroke-width="0" fill="#838176" />
+</svg>
+    </div>
+    <div class="circ3">
+      <svg height="200" width="200">
+  <circle cx="100" cy="100" r="75" stroke="black" stroke-width="0" fill="#490505" />
+</svg>
+    </div>
+    <div class="circles">
+    <div class="circ4">
+      <svg class="circ_4" height="50" width="50">
+  <circle cx="30" cy="30" r="10" stroke="black" stroke-width="0" fill="#962a2a" />
+</svg>
+    </div>
+    <div class="circ5">
+      <svg class="circ_5" height="50" width="50">
+  <circle cx="30" cy="30" r="10" stroke="black" stroke-width="0" fill="#962a2a" />
+</svg>
+    </div>
+    </div>
+  </div>
+      <div class="rect6">
+        <svg width="260" height="80">
+  <rect width="260" height="30" style="fill:#fff68f;stroke-width:0;stroke:rgb(0,0,0)"/>
+</svg>
+        <div class="rect7">
+        <svg width="260" height="10">
+  <rect width="130" height="10" style="fill:#fff68f;stroke-width:0;stroke:rgb(0,0,0)"/>
+</svg>    
+        </div>
+        <div class="rect8">
+ <svg width="130" height="10">
+  <rect width="200" height="10" style="fill:#fff68f;stroke-width:0;stroke:rgb(0,0,0)"/>
+</svg>    
+        </div>
+     </div>
+  <div class="handle">
+    <div class="line3"></div>
+    <div class="line3"></div>
+    <div class="line3"></div>
+  </div>
+</div>
+</div>
+</div>    
+  </body>
+</html>
+ 
